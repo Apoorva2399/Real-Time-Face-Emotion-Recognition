@@ -27,7 +27,7 @@ Python and the following packages:
 * test it
      a. " facial-emotion.ipynb ".
      b. real time emotion recognition from webcam with " Real Time Face Emotion Detection.ipynb ".
-     c. " app.py ".
+     c. for Streamlit " app.py ".
 * deploy the app    
 
 
