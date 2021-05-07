@@ -1,4 +1,4 @@
-# Real-Time-Face-Emotion-Recogniton
+# Real-Time-Face-Emotion-Recogniton using Transfer Learning
 Real-time computer vision solution with model integration. It will detect person Face, and Emotion in the frame.
 
 # Dependencies
