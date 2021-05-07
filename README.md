@@ -25,9 +25,9 @@ Python and the following packages:
 * prepare data
 * train model
 * test it
-     a. " facial-emotion.ipynb ".
-     b. real time emotion recognition from webcam with " Real Time Face Emotion Detection.ipynb "
-     c. for Streamlit " app.py ".
+     * " facial-emotion.ipynb ".
+     * real time emotion recognition from webcam with " Real Time Face Emotion Detection.ipynb "
+     * for Streamlit " app.py ".
 * deploy the app    
 
 
