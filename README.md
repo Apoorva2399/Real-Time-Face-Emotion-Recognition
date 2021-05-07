@@ -1,7 +1,7 @@
 # Real-Time-Face-Emotion-Recogniton
 Real-time computer vision solution with model integration. It will detect person Face, and Emotion in the frame.
 
-## Dependencies
+# Dependencies
 * Tensorlow
 * Keras
 * MobileNet
@@ -9,8 +9,8 @@ Real-time computer vision solution with model integration. It will detect person
 * Streamlit
 * face_recognition
 
-## Setup
-# You need  the Following:
+# Setup
+## You need  the Following:
 Python and the following packages:
 * OpenCV 
 * Keras (with Tensorflow backend)
