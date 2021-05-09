@@ -1,5 +1,11 @@
 # Real-Time-Face-Emotion-Recogniton using Transfer Learning
 Real-time computer vision solution with model integration. It will detect person Face, and Emotion in the frame.
+Transfer learning is a machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind.It offers better starting point and improves the model performance when applied on second task.
+ 
+ In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform.
+The model is being trained on the dataset 'FER-13 cleaned dataset', which had five emotion categories namely 'Happy', 'Sad', 'Neutral','Angry' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face.
+
+ Since, there was an soft limit size of 300MB on heroku colud platform to perfectly deploy and run the model through app. My model size was around 438MB because of which i can only deploy the app but couldn't run perfectly. So this can be solved by providing some more space or by reducing the slug size of model if possible.
 
 # Dependencies
 * Tensorlow
@@ -7,7 +13,7 @@ Real-time computer vision solution with model integration. It will detect person
 * MobileNet
 * Opencv
 * Streamlit
-* face_recognition
+
 
 # Setup
 ## You need  the Following:
@@ -21,14 +27,17 @@ Python and the following packages:
 * sklearn
 
 # Try it out:
-
 * prepare data
 * train model
 * test it
-     * " facial-emotion.ipynb ".
-     * real time emotion recognition from webcam with " Real Time Face Emotion Detection.ipynb "
-     * for Streamlit " app.py ".
-* deploy the app    
+     * dataset -- https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
+     * Transfer-Learning Model -- https://github.com/Apoorva2399/Real-Time-Face-Emotion-Recogniton/blob/main/facial-emotion.ipynb
+     * Real time face emotion recognition through webcam -- https://github.com/Apoorva2399/Real-Time-Face-Emotion-Recogniton/blob/main/Real%20Time%20Face%20Emotion%20Detection.ipynb
+     * Run on streamlit app -- https://github.com/Apoorva2399/Real-Time-Face-Emotion-Recogniton/blob/main/app.py
+* deploy Your app    
+
+# Here is my deployed app link :
+  * https://real-time-emotion-recognition.herokuapp.com/
 
 
 
