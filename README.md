@@ -1,4 +1,4 @@
-# Real-Time-Face-Emotion-Recogniton using Transfer Learning
+# Real-Time-Face-Emotion-Recogniton Using Transfer Learning
 Real-time computer vision solution with model integration. It will detect person Face, and Emotion in the frame.
 Transfer learning is a machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind.It offers better starting point and improves the model performance when applied on second task.
  
