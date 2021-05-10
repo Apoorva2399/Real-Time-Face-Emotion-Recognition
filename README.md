@@ -11,6 +11,7 @@ The model is trained on the dataset 'FER-13 cleaned dataset', which had five emo
  Since there was an soft limit size of 300MB on heroku colud platform to perfectly deploy and run the model through app. My model size was around 438MB because of which i can only deploy the app but couldn't run perfectly. So this can be solved by providing some more extra space or by further reducing the slug size of model if possible.
  
  Since my model gave application error after deployment because of slug size, my team-mate have trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data at 42nd epoc.and we deployed this model on heroku cloud platform where slug size was around 413MB, which successfully deployed and app is facing issue in boot time.
+
 Here is link of CNN model -- https://github.com/sarfaraziqbal/face-emotion-recognition-cnn
 
 # Dependencies
