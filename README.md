@@ -1,5 +1,5 @@
 # Real-Time-Face-Emotion-Recogniton Using Transfer Learning
- Here we have created the models which recognises the real time emotion of person in frame. So basically its a team project by Me and my friend Md Sarfaraz Iqbal.Here is model trained by me using Transfer Learning. 
+ Here we have created the models which recognises the real time emotion of person in frame. So basically its a team project done by me and my friend Md Sarfaraz Iqbal.Here is model trained by me using Transfer Learning. 
 
 Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task.
  
